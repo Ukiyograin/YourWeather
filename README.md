@@ -20,7 +20,7 @@
 - 矢量图形：自定义图标渲染
 
 ### 数据源
-- 天气API：Open-Meteo
+- 天气API：[Open-Meteo](https://github.com/open-meteo/open-meteo)
 - 地理位置API：Open-Meteo Geocoding
 - 数据格式：JSON
 
