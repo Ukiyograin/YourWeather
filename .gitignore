@@ -1,0 +1,34 @@
+# .NET / WPF build output
+frontend/bin/
+frontend/obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio
+.vs/
+
+# CMake / C++ build output
+backend/build/
+backend/out/
+backend/CMakeFiles/
+backend/CMakeCache.txt
+backend/cmake_install.cmake
+backend/Makefile
+backend/*.vcxproj
+backend/*.vcxproj.filters
+backend/*.vcxproj.user
+
+# FetchContent / temporary dependencies
+backend/_deps/
+backend/build/_deps/
+
+# Runtime / logs / local config
+*.log
+weather_service.conf
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
